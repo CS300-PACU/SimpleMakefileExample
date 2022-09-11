@@ -1,26 +1,23 @@
 /**********************************************************************
- File name:  	main.c
+ File name:  	fun.c
  Author:     	Chadd Williams
  Date:       	9/11/22
  Class:      	CS300
  Assignment: 	In Class Example
  Purpose:    	Simple makefile example
  *********************************************************************/
-#include <stdio.h>
-#include "fun.h"
 
 /**********************************************************************
- Function:    main
+ Function:    fun
 
- Description: Print two added ints
+ Description: add two ints and return result
  
- Parameters:  None
+ Parameters:  x - the first int
+              y - the second int
  
- Returned:    int, exit status
+ Returned:    int, the added params
  *********************************************************************/
-int main()
+int fun(int x, int y)
 {
-  printf(" hi %d\n", fun(3,7));
-
-  return 0;
+  return x + y;
 }
