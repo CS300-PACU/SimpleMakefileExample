@@ -7,4 +7,4 @@
  Purpose:    	Simple makefile example
  *********************************************************************/
 
-extern int fun(int x, int y);
+extern int add(int x, int y);
