@@ -19,7 +19,7 @@
  
  Returned:    int, the added params
  *********************************************************************/
-int fun(int x, int y)
+int add(int x, int y)
 {
   return x + y;
 }
