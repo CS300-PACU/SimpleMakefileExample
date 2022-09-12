@@ -1,0 +1,7 @@
+
+src/
+  main.c
+  fun.c
+
+include/
+  fun.h
