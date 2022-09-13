@@ -7,7 +7,7 @@
  Purpose:    	Simple makefile example
  *********************************************************************/
 #include <stdio.h>
-#include "fun.h"
+#include "../include/fun.h"
 
 /**********************************************************************
  Function:    main
